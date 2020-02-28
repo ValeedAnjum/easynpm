@@ -1,0 +1,56 @@
+{
+  "name": "current",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.3.2",
+    "@material-ui/icons": "^4.2.1",
+    "@react-pdf/renderer": "^1.6.8",
+    "algoliasearch": "^4.0.3",
+    "firebase": "^6.3.5",
+    "gulp": "^4.0.2",
+    "gulp-less": "^4.0.1",
+    "markdown-to-jsx": "^6.10.3",
+    "node-sass": "^4.13.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-instantsearch-dom": "^6.3.0",
+    "react-redux": "^5.1.1",
+    "react-redux-firebase": "^2.3.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "^3.4.0",
+    "react-stripe-checkout": "^2.6.3",
+    "react-toastify": "^5.5.0",
+    "redux": "^4.0.4",
+    "redux-firestore": "^0.8.0",
+    "redux-form": "^8.3.0",
+    "redux-thunk": "^2.3.0",
+    "revalidate": "^1.2.0",
+    "rsuite": "^3.8.8",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.88.0",
+    "stripe": "^8.18.0",
+    "thunk": "0.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

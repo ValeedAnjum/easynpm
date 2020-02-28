@@ -1,0 +1,259 @@
+/* component search area */
+.s008{
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+/* component commands */
+.commands{
+  background-color: white;
+  width: 100%;
+  color: black;
+  margin-top: 5px;
+  border-radius: 2px;
+  padding: 6px;
+}
+.commands .btnCon{
+  text-align: right;
+}
+.commands .btnCon button{
+  background-color: transparent;
+  outline: none;
+  border: none;
+  text-transform: uppercase;
+  color: #1abc9c;
+}
+.commands .MuiButton-textPrimary{
+  color: #1abc9c;
+  outline-color: #1abc9c;
+}
+
+/* component list  */
+.List {
+  width: 100%;
+  background-color: white;
+}
+.List .MuiCheckbox-colorSecondary.Mui-checked{
+  color: #1abc9c !important;
+}
+.List .MuiIconButton-colorSecondary:hover{
+  background-color: rgba(0, 245, 206, 0.08) !important;
+}
+/* component Favouties  */
+.Favouties .commands{
+  width: 100%;
+  margin-bottom: 5px;
+  position: relative;
+}
+.Favouties .commands .DeleteIcon{
+  display: none;
+}
+.Favouties .commands:hover .DeleteIcon{
+  display: block;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  right: 0;
+  color: rgba(0, 0, 0, 0.32);
+  transform: translate(50%, -50%);
+}
+.Favouties .s008{
+  display: block;
+}
+.Favouties .btnCon {
+  text-align: right;
+}
+.Favouties .btnCon .MuiButtonBase-root{
+  color: #1abc9c;
+  background-color: white;
+  outline: none;
+}
+/* component MakeNewList */
+.MakeNewList {
+  background-color: rgba(0,0,0,0.5);
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 5000;
+  top: 0;
+}
+.contentNewList{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 10000;
+  background-color: white;
+  transform: translate(-50%,-50%);
+  width: 80%;
+  min-height: 300px;
+  padding: 50px;
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+}
+.contentNewList .btnCon{
+  text-align: center;
+}
+.contentNewList .btnCon .MuiButton-containedPrimary{
+  color: #fff;
+  background-color: #1abc9c;
+  margin-top: 5px;
+  outline: none;
+}
+.contentNewList .MuiFormControl-root .Mui-focused{
+  color: #1abc9c;
+}
+.contentNewList .MuiInput-underline:hover:not(.Mui-disabled):before{
+  border-bottom: 2px solid #1abc9c;
+}
+.contentNewList .MuiFormControl-root .MuiInput-underline:after{
+  border-bottom-color: #1abc9c;
+}
+.contentNewList .MuiFormControl-root .MuiInputBase-input{
+  color: #949494;
+}
+.contentNewList .MuiCircularProgress-colorPrimary{
+  color: #1abc9c;
+}
+
+/* component Login */
+.Login .input-field{
+  margin-bottom: 26px;
+}
+.Login .input-field i{
+  color: #00000059;
+}
+.Login .s008 form .inner-form .basic-search{
+  box-shadow: none;
+}
+.Login .btnCon {
+  text-align: right;
+}
+.Login .btnCon .MuiButtonBase-root{
+  color: #1abc9c;
+  background-color: white;
+  outline: none;
+}
+
+/* component Register */
+.Register .input-field{
+  margin-bottom: 26px;
+}
+.Register .input-field i{
+  color: #00000059;
+}
+.Register .s008 form .inner-form .basic-search{
+  box-shadow: none;
+}
+.Register .btnCon {
+  text-align: right;
+}
+.Register .btnCon .MuiButtonBase-root{
+  color: #1abc9c;
+  background-color: white;
+  outline: none;
+}
+.Register .ErrorInput{
+  border: 2px solid #555 !important;
+}
+/* component MainLoadingScreen  */
+.MainLoadingScreen {
+  height: 100vh;
+  width: 100vw;
+  
+  position: fixed;
+  background-color: white;
+  z-index: 15000;
+}
+
+.MainLoadingScreen .loader {
+  height: 20px;
+  width: 250px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.MainLoadingScreen .loader--dot {
+  animation-name: loader;
+  animation-timing-function: ease-in-out;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+  background-color: black;
+  position: absolute;
+  border: 2px solid white;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+.MainLoadingScreen .loader--dot:first-child {
+  background-color: #8cc759;
+  animation-delay: 0.5s;
+}
+.MainLoadingScreen .loader--dot:nth-child(2) {
+  background-color: #8c6daf;
+  animation-delay: 0.4s;
+}
+.MainLoadingScreen .loader--dot:nth-child(3) {
+  background-color: #ef5d74;
+  animation-delay: 0.3s;
+}
+.MainLoadingScreen .loader--dot:nth-child(4) {
+  background-color: #f9a74b;
+  animation-delay: 0.2s;
+}
+.MainLoadingScreen .loader--dot:nth-child(5) {
+  background-color: #60beeb;
+  animation-delay: 0.1s;
+}
+.MainLoadingScreen .loader--dot:nth-child(6) {
+  background-color: #fbef5a;
+  animation-delay: 0s;
+}
+.MainLoadingScreen .loader--text {
+  position: absolute;
+  top: 200%;
+  left: 0;
+  right: 0;
+  width: 4rem;
+  margin: auto;
+}
+
+
+@keyframes loader {
+  15% {
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+}
+  45% {
+    transform: translateX(230px);
+    -webkit-transform: translateX(230px);
+    -moz-transform: translateX(230px);
+    -ms-transform: translateX(230px);
+    -o-transform: translateX(230px);
+}
+  65% {
+    transform: translateX(230px);
+    -webkit-transform: translateX(230px);
+    -moz-transform: translateX(230px);
+    -ms-transform: translateX(230px);
+    -o-transform: translateX(230px);
+}
+  95% {
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+}
+}
+
