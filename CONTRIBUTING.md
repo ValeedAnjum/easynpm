@@ -1,1 +1,1 @@
-CONTRIBUTING file
+# Contributing to easynpm
