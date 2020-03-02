@@ -5,7 +5,7 @@
 
 ## Preview
 
-[![easynpm Preview](https://github.com/ValeedAnjum/easynpm/blob/master/public/img/easynpm%20preview.jpg)](https://easynpm-7c7ed.firebaseapp.com/)
+[![easynpm Preview](https://github.com/ValeedAnjum/easynpm/blob/master/public/img/demo.gif?raw=true)](https://easynpm-7c7ed.firebaseapp.com/)
 
 **[View Live Preview](https://easynpm-7c7ed.firebaseapp.com/)**
 
