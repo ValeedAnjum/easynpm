@@ -1,5 +1,4 @@
 import algoliasearch from 'algoliasearch/lite';
-import Ofirebase from '../../Config/config';
 import {APP_ID,SEARCH_API_KEY} from '../../Config/config';
 export const fetctPackages = que => async (dispatch,getState) => {
     dispatch({type:'LoadItemsStart'});
@@ -34,7 +33,7 @@ export const saveList = List => {
 export const deleteList = id => {
     return (dispathch,getState,{getFirebase,getFirestore}) => {
         const firestore = getFirestore();
-        firestore.collection('Favourties').doc(id).delete().then(() => {
+        firestore.collection('favourties').doc(id).delete().then(() => {
             console.log("Success");
         }).catch(err => {
             alert(err.message);

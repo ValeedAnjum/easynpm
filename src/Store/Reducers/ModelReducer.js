@@ -15,7 +15,7 @@ export const ModelReducer = (state = intState,action) => {
         case 'SaveListAsynSuccess':
             return {...state,SavingList:false,ModelName:null}
         case 'SaveListAsynError':
-            return {...state,SaveListError:action.payload,ModelName:null}
+            return {...state,SaveListError:action.payload,ModelName:null,SavingList:false}
         case 'AsynStart':
             return {...state,ModelName:'MainLoadingScreen'}
         case 'AsynSuccess':

@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Navbar from '../Navbar/Navbar';
 import Commands from '../Commands/Commands';
 import {connect} from 'react-redux';
 import { Redirect } from 'react-router-dom';
@@ -50,7 +49,6 @@ export default compose(
     connect(mapState,mapDispatch),
     firestoreConnect(props => {
         if(!props.auth) return [];
-        console.log(props.auth);
         return (
             [{
             collection: "favourties",
