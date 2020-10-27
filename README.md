@@ -1,4 +1,4 @@
-# [Easynpm](https://easynpm-7c7ed.firebaseapp.com/)
+# [easynpm](https://easynpm-7c7ed.firebaseapp.com/)
 
 
 [easynpm](https://easynpm-7c7ed.firebaseapp.com/) is a single page react application that helps the developers to search packages and generate npm install commands easily and fastly.
